@@ -1,45 +1,47 @@
-🍇🍒 Fruit Match Battle + Tic-Tac-Toe Cheat Mode 🎮
+Fruit Basket Brawl
+Overview
+Fruit Basket Brawl is a fun and interactive 3D game built using OpenGL, where players compete to match fruits on a grid. The game features two modes: a fruit matching game and a Tic Tac Toe mini-game. Players take turns selecting tiles to reveal fruits, aiming to find matching pairs while racing against the clock.
 
-Fruit Match Battle is a dynamic two-player game that combines fast-paced fruit matching with a secret Tic-Tac-Toe (TTT) cheat mode to gain an edge over your opponent!
+Features
+Two Game Modes:
+Fruit Matching: Match pairs of fruits on a grid.
+Tic Tac Toe: Play a classic game of Tic Tac Toe with a twist.
+Dynamic Platform Grid: A colorful grid with pastel colors for an engaging visual experience.
+3D Fruit Models: Realistic 3D representations of various fruits including apples, oranges, guavas, and pomegranates.
+Score Tracking: Keep track of scores for both players.
+Timer: A countdown timer adds urgency to the game.
+Cheat Code: Players can earn a cheat code by winning the Tic Tac Toe mini-game.
 
-🕹️ Features
-Dynamic Grid Platform: Players move across a grid where hidden fruits are placed randomly.
 
-Two-Player Mode: One player is represented by a rectangle and the other by a circle, making identification easy.
+Requirements
+Python 3.x
+PyOpenGL
+GLUT (OpenGL Utility Toolkit)
 
-Four Different Fruits: Match identical fruits to turn the blocks green. Once matched, fruits disappear and are sent to each player’s individual basket.
 
-First- and Third-Person Camera Views: Switch between immersive first-person mode and tactical third-person mode anytime during gameplay.
+Installation
 
-Hint System: Before the round starts, fruits are revealed for 1 second, giving players a short memory challenge.
+Clone the repository: git clone https://github.com/yourusername/fruit-basket-brawl.git
+cd fruit-basket-brawl
 
-Movement and Collision: Players move freely using WASD keys. Realistic collision detection ensures you can only interact with nearby blocks.
+Install the required packages: pip install PyOpenGL PyOpenGL_accelerate
 
-Timer: Each game is limited to 120 seconds. Collect as many matches as possible before time runs out!
+Ensure you have GLUT installed on your system. You can find installation instructions for your operating system
 
-🎯 Gameplay
-Players explore the grid and uncover blocks to find matching fruits. The faster and more accurately you match, the better your chances of winning. Every matched pair disappears from the grid and fills your basket. Movement is free-form but strategic, requiring careful planning and fast reflexes.
+How to Run
+To start the game, run the following command in your terminal: python main.py
 
-A fun twist is introduced with the Tic-Tac-Toe (Cheat Mode) located at the side of the platform. By winning a round of TTT, a player can:
 
-Press T to toggle back to the Fruit Game.
 
-Press K to add an extra point to their score!
+Controls
 
-Switching between the main game and the cheat mode adds an extra layer of strategy to outsmart your opponent.
 
-🎮 Controls
-WASD: Move
-
+1-9: Select tiles in the fruit matching game
+T: Toggle Tic Tac Toe mode
+K: Use cheat code after winning Tic Tac Toe
 R: Restart the game
+C: Toggle camera position
+Q: Pause/Unpause the game
 
-Right Mouse Button: Pause/Play
 
-Q: Quit
 
-T: Toggle to Fruit Mode after winning TTT
-
-K: Add a point after winning TTT
-
-🧺 Objective
-Collect fruits, outmatch your opponent, win cheat rounds, and fill your basket first!
