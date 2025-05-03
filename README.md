@@ -21,7 +21,7 @@ GLUT (OpenGL Utility Toolkit)
 
 Installation
 
-Clone the repository: git clone https://github.com/yourusername/fruit-basket-brawl.git
+Clone the repository: git clone https://github.com/Anzal-abir/fruit-basket-brawl.git
 cd fruit-basket-brawl
 
 Install the required packages: pip install PyOpenGL PyOpenGL_accelerate
